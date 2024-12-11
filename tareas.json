@@ -1,0 +1,25 @@
+{
+    "Tarea 1": {
+        "prioridad": 1,
+        "dependencias": [],
+        "vencimiento": "2024-12-15",
+        "completada": true
+    },
+    "Tarea 2": {
+        "prioridad": 2,
+        "dependencias": [
+            "Tarea 1"
+        ],
+        "vencimiento": "2024-12-16",
+        "completada": false
+    },
+    "Tarea 3": {
+        "prioridad": 1,
+        "dependencias": [
+            "Tarea 1",
+            "Tarea 2"
+        ],
+        "vencimiento": "2024-12-17",
+        "completada": false
+    }
+}
